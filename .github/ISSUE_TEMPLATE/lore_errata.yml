@@ -31,7 +31,7 @@ body:
     attributes:
       label: 涉及版本
       options:
-        - "latest.md（v5.0.0）"
+        - "latest.md（v5.0.1）"
         - "archived/v4.0.0.md"
         - "archived/v3.0.0.md"
         - "archived/v2.0.0.md"

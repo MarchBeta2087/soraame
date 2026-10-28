@@ -5,13 +5,13 @@
 > 一部以 2045 年为背景、围绕虚构 2D 横版游戏 InfLoopExplode（ILE）展开的协作故事。
 
 - 作者/维护者：MarchBeta2087
-- 最新版本：**第五版（v5.0.0）**，2026-10-28
+- 最新版本：**第五版修订（v5.0.1）**，2026-10-28
 - 当前版本许可证：[CC BY-SA 4.0](LICENSE.md)
 - 早期版本许可证：[CC BY 4.0](archived/COPYING.ARCHIVED)
 
 ## 开始阅读
 
-👉 **[阅读最新版（v5.0.0）](latest.md)**
+👉 **[阅读最新版（v5.0.1）](latest.md)**
 
 ## 故事简介
 
@@ -23,7 +23,8 @@
 
 | 版本 | 日期 | 文件 | 许可证 |
 | --- | --- | --- | --- |
-| v5.0.0（第五版） | 2026-10-28 | [latest.md](latest.md) | [CC BY-SA 4.0](LICENSE.md) |
+| v5.0.1（第五版修订） | 2026-10-28 | [latest.md](latest.md) | [CC BY-SA 4.0](LICENSE.md) |
+| v5.0.0（第五版首发） | 2026-10-28 | [v5.0.0 快照](https://github.com/MarchBeta2087/soraame/blob/v5.0.0/latest.md) | [CC BY-SA 4.0](LICENSE.md) |
 | v4.0.0（第四版） | 2026-09-22 | [archived/v4.0.0.md](archived/v4.0.0.md) | [CC BY 4.0](archived/COPYING.ARCHIVED) |
 | v3.0.0（第三版） | 2026-09-17 | [archived/v3.0.0.md](archived/v3.0.0.md) | [CC BY 4.0](archived/COPYING.ARCHIVED) |
 | v2.0.0（第二版） | 2026-09-16 | [archived/v2.0.0.md](archived/v2.0.0.md) | [CC BY 4.0](archived/COPYING.ARCHIVED) |
@@ -36,12 +37,25 @@
 - `CHANGELOG.md` —— 版本变更记录
 - `CONTRIBUTING.md` —— 贡献指南
 - `CODE_OF_CONDUCT.md` —— 社区行为准则
+- `ALT.example.md` —— 平行剧情分支的元数据模板
 - `COPYING.md` —— 许可证索引与署名说明
 - `LICENSE.md` —— CC BY-SA 4.0 许可证全文
 
 ## 贡献
 
 欢迎勘误、文字润色与设定补白。请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)；提交即表示同意按 CC BY-SA 4.0 授权。
+
+## 讨论
+
+欢迎在 [GitHub Discussions](https://github.com/MarchBeta2087/soraame/discussions) 交流设定、剧情设想、二创与使用问题。
+
+## 平行剧情 / 二创
+
+- **补白**：不改变既有事实的细节补充，直接 PR 到 `main`。
+- **平行剧情**：改变剧情走向的版本，优先 **fork** 本仓库；在自己的仓库中注明基于哪个版本、做了哪些改动，保留原署名，并按 CC BY-SA 4.0 发布。
+- **有写权限的协作者**：也可以开 `alt/<author>/<slug>` 分支，并附 `ALT.md`（模板见 [ALT.example.md](ALT.example.md)）；`alt` 分支不合并到 `main`，默认视为非正史。
+
+详见 [CONTRIBUTING.md](CONTRIBUTING.md#平行剧情与二创)。
 
 ## 贡献者
 
