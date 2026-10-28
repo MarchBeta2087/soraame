@@ -1,0 +1,41 @@
+name: 设定勘误 / 逻辑捉虫
+description: 发现时间线冲突、人物信息矛盾、错别字或数值/数学错误
+title: "[勘误] "
+labels: ["bug", "lore-errata"]
+body:
+  - type: markdown
+    attributes:
+      value: "感谢帮《SoraAmethyst1329 与 ILE》捉虫！请尽量给出文件、行号或小节。"
+  - type: input
+    id: location
+    attributes:
+      label: 出现位置
+      description: 哪个文件、哪一行或哪一小节？
+      placeholder: "例如：latest.md 第 283 行 / 主要人物介绍 → SoraAmethyst1329"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 错误描述
+      description: 具体哪里不对？为什么你认为这是错误或矛盾？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 修正建议
+      description: 你认为应该怎么改？
+  - type: dropdown
+    id: version
+    attributes:
+      label: 涉及版本
+      options:
+        - "latest.md（v5.0.0）"
+        - "archived/v4.0.0.md"
+        - "archived/v3.0.0.md"
+        - "archived/v2.0.0.md"
+        - "archived/v1.0.0.md"
+        - "不确定"
+    validations:
+      required: true
